@@ -23,7 +23,7 @@ export default function Footer() {
                   Услуги
                 </a>
                 <a
-                  href="#contact"
+                  href="#contacts"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
                   Контакты
