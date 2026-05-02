@@ -1,6 +1,6 @@
 export default function Contacts() {
   return (
-    <section className="min-h-screen bg-white flex flex-col lg:flex-row">
+    <section id="contacts" className="min-h-screen bg-white flex flex-col lg:flex-row">
       {/* Левая часть — визитка */}
       <div className="flex-1 flex flex-col justify-center items-center px-10 py-16 lg:px-20 border-r border-neutral-200">
         <span className="text-orange-500 uppercase text-xs tracking-widest mb-10 self-start">Визитка</span>
@@ -32,8 +32,12 @@ export default function Contacts() {
             href="#"
             className="flex flex-col items-center gap-3 group"
           >
-            <div className="w-14 h-14 rounded-full bg-[#0077FF] flex items-center justify-center group-hover:scale-110 transition-transform">
-              <span className="text-white font-bold text-sm">MAX</span>
+            <div className="w-14 h-14 rounded-full overflow-hidden group-hover:scale-110 transition-transform">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/VK_Messenger_logo_%282022%29.svg/240px-VK_Messenger_logo_%282022%29.svg.png"
+                alt="MAX"
+                className="w-full h-full object-cover"
+              />
             </div>
             <span className="text-xs text-neutral-500 font-medium">MAX</span>
           </a>

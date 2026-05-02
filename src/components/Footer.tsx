@@ -51,7 +51,10 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div className="flex justify-end items-end">
+            <div className="flex justify-between items-end">
+              <p className="text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight">
+                <span className="text-white">АВТО</span><span className="text-orange-500">АКАРА</span>
+              </p>
               <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Автосервис Акара</p>
             </div>
           </div>
