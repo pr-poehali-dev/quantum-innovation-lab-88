@@ -6,12 +6,26 @@ export default function Header({ className }: HeaderProps) {
   return (
     <header className={`absolute top-0 left-0 right-0 z-10 p-6 ${className ?? ""}`}>
       <div className="flex justify-between items-center">
-        <img
-          src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/bucket/9a1301f5-1b21-4f95-9703-a823958fa9e0.jpg"
-          alt="Автосервис Акара"
-          className="h-20 w-auto object-contain"
-          style={{ backgroundColor: "#525252", mixBlendMode: "normal", filter: "none" }}
-        />
+        <div className="flex items-center gap-3">
+          {/* Логотип — шахматный паттерн */}
+          <svg width="72" height="60" viewBox="0 0 72 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {/* Ряд 1 */}
+            <rect x="0"  y="0"  width="18" height="18" fill="white" />
+            <rect x="18" y="0"  width="18" height="18" fill="#404040" />
+            <rect x="36" y="0"  width="18" height="18" fill="white" />
+            <rect x="54" y="0"  width="18" height="18" fill="#404040" />
+            {/* Ряд 2 */}
+            <rect x="0"  y="18" width="18" height="18" fill="#404040" />
+            <rect x="18" y="18" width="18" height="18" fill="#E86A1A" />
+            <rect x="36" y="18" width="18" height="18" fill="#404040" />
+            <rect x="54" y="18" width="18" height="18" fill="white" />
+            {/* Ряд 3 */}
+            <rect x="0"  y="36" width="18" height="18" fill="white" />
+            <rect x="18" y="36" width="18" height="18" fill="#404040" />
+            <rect x="36" y="36" width="18" height="18" fill="#E86A1A" />
+            <rect x="54" y="36" width="18" height="18" fill="#404040" />
+          </svg>
+        </div>
         <nav className="flex gap-8">
           <a
             href="#about"
