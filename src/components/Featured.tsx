@@ -1,6 +1,6 @@
 export default function Featured() {
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-white">
+    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-neutral-100">
       <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
         <img
           src="/images/woman-horse.jpg"
@@ -9,16 +9,16 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Почему выбирают нас</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-orange-500">Почему выбирают нас</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
           Мы создаём продукты, которые работают на вас — красивые, функциональные и готовые к росту с первого дня запуска.
         </p>
         <ul className="mb-8 flex flex-col gap-3 text-neutral-700 text-base">
-          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-black rounded-full inline-block"></span>Быстрый старт без лишних затрат</li>
-          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-black rounded-full inline-block"></span>Дизайн, который запоминается</li>
-          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-black rounded-full inline-block"></span>Поддержка на каждом этапе</li>
+          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full inline-block"></span>Быстрый старт без лишних затрат</li>
+          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full inline-block"></span>Дизайн, который запоминается</li>
+          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full inline-block"></span>Поддержка на каждом этапе</li>
         </ul>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <button className="bg-orange-500 text-white border border-orange-500 px-4 py-2 text-sm transition-all duration-300 hover:bg-transparent hover:text-orange-500 cursor-pointer w-fit uppercase tracking-wide">
           Начать сотрудничество
         </button>
       </div>

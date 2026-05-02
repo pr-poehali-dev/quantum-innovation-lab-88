@@ -10,13 +10,13 @@ export default function Header({ className }: HeaderProps) {
         <nav className="flex gap-8">
           <a
             href="#about"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            className="text-white hover:text-orange-400 transition-colors duration-300 uppercase text-sm"
           >
             О нас
           </a>
           <a
             href="#contact"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            className="text-white hover:text-orange-400 transition-colors duration-300 uppercase text-sm"
           >
             Контакты
           </a>
