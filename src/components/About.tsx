@@ -15,7 +15,7 @@ export default function About() {
       {/* Верх-право: картинка */}
       <div className="border-b border-neutral-300 overflow-hidden">
         <img
-          src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/files/05b9874e-0cf3-4e02-82ed-05860e668772.jpg"
+          src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/bucket/6f962ebc-eee2-4fd7-ba9e-8eebd7f78ad6.jpg"
           alt="Механик за работой"
           className="w-full h-full object-cover"
         />
