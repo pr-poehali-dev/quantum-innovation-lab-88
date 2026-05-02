@@ -9,8 +9,8 @@ export default function Header({ className }: HeaderProps) {
         <img
           src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/bucket/9a1301f5-1b21-4f95-9703-a823958fa9e0.jpg"
           alt="Автосервис Акара"
-          className="h-10 w-auto object-contain"
-          style={{ imageRendering: "crisp-edges" }}
+          className="h-16 w-auto object-contain rounded"
+          style={{ mixBlendMode: "luminosity", filter: "brightness(1.1) contrast(1.1)", backgroundColor: "#525252" }}
         />
         <nav className="flex gap-8">
           <a
