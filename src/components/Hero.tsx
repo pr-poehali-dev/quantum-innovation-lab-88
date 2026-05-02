@@ -25,7 +25,7 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-neutral-700/80" />
       <div className="relative z-10 text-center text-white">
         <p className="text-sm uppercase tracking-widest mb-4 text-orange-400">Добро пожаловать</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
