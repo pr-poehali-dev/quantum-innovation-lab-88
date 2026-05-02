@@ -10,7 +10,7 @@ export default function Header({ className }: HeaderProps) {
           <img
             src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/bucket/590d89da-1e4e-4480-8198-7642b289cff4.png"
             alt="Автосервис Акара"
-            className="h-16 w-auto object-contain"
+            className="h-24 w-auto object-contain"
           />
         </div>
         <nav className="flex gap-8">
