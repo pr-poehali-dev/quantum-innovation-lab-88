@@ -29,7 +29,8 @@ export default function Hero() {
       <div className="relative z-10 text-center text-white">
         <p className="text-sm uppercase tracking-widest mb-4 text-orange-400">Добро пожаловать</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          НОВЫЙ УРОВЕНЬ
+          <span className="text-white">АВТОСЕРВИС</span>{" "}
+          <span className="text-orange-500">АКАРА</span>
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Расскажите нам о своём проекте — и мы воплотим его в реальность
