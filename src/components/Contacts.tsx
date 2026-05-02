@@ -4,8 +4,12 @@ export default function Contacts() {
       {/* Левая часть — визитка */}
       <div className="flex-1 flex flex-col justify-center items-center px-10 py-16 lg:px-20 border-r border-neutral-200">
         <span className="text-orange-500 uppercase text-xs tracking-widest mb-10 self-start">Визитка</span>
-        <div className="w-full max-w-sm aspect-[1.75/1] rounded-2xl border-2 border-dashed border-neutral-300 flex items-center justify-center bg-neutral-50">
-          <p className="text-neutral-400 text-sm text-center px-4">Фото визитки появится здесь</p>
+        <div className="w-full max-w-sm aspect-[1.75/1] rounded-2xl overflow-hidden shadow-lg">
+          <img
+            src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/bucket/75623da9-d3bc-4442-91c1-ba9287a2c4d9.png"
+            alt="Визитка Автосервис АКАРА"
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
 
