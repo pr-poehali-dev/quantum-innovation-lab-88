@@ -26,12 +26,16 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
+        <p className="text-sm uppercase tracking-widest mb-4 opacity-70">Добро пожаловать</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          НОВЫЙ УРОВЕНЬ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Расскажите нам о своём проекте — и мы воплотим его в реальность
         </p>
+        <button className="mt-10 px-8 py-3 border border-white text-white uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300">
+          Узнать больше
+        </button>
       </div>
     </div>
   );

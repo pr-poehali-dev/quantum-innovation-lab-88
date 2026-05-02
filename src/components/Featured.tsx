@@ -9,13 +9,17 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Функции, которые не стоят на месте</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Почему выбирают нас</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто список возможностей — живые, дышащие акценты. Каждая функция адаптируется к движению, контексту и настроению,
-          оживляя продукт с первого взгляда.
+          Мы создаём продукты, которые работают на вас — красивые, функциональные и готовые к росту с первого дня запуска.
         </p>
+        <ul className="mb-8 flex flex-col gap-3 text-neutral-700 text-base">
+          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-black rounded-full inline-block"></span>Быстрый старт без лишних затрат</li>
+          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-black rounded-full inline-block"></span>Дизайн, который запоминается</li>
+          <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-black rounded-full inline-block"></span>Поддержка на каждом этапе</li>
+        </ul>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Подробнее
+          Начать сотрудничество
         </button>
       </div>
     </div>
