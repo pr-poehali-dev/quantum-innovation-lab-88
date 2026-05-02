@@ -14,18 +14,7 @@ export default function Hero() {
       ref={container}
       className="relative flex items-center justify-center h-screen overflow-hidden"
     >
-      <motion.div
-        style={{ y }}
-        className="absolute inset-0 w-full h-full"
-      >
-        <img
-          src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/bucket/697ed52a-f050-40d0-ba86-3294f852650d.png"
-          alt="Автосервис Акара"
-          className="w-full h-full object-cover"
-        />
-      </motion.div>
-
-      <div className="absolute inset-0 bg-neutral-700/80" />
+      <div className="absolute inset-0 bg-neutral-700" />
       <div className="relative z-10 text-center text-white">
         <p className="text-sm uppercase tracking-widest mb-4 text-orange-400">Добро пожаловать</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
