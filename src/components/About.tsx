@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="min-h-screen bg-neutral-100 grid grid-cols-2 grid-rows-2">
+    <section id="about" className="min-h-screen bg-neutral-100 grid grid-cols-2 grid-rows-2">
       {/* Верх-лево: текст */}
       <div className="flex flex-col justify-center px-10 py-12 lg:px-16 lg:py-16 border-b border-r border-neutral-300">
         <span className="text-orange-500 uppercase text-xs tracking-widest mb-4">О нас</span>

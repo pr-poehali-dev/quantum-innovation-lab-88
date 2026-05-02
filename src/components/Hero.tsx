@@ -24,7 +24,10 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Автосервис Акара - команда квалифицированных специалистов, обеспечит - качественный и честный сервис.
         </p>
-        <button className="mt-10 px-8 py-3 bg-orange-500 text-white uppercase text-sm tracking-wide hover:bg-orange-600 transition-all duration-300">
+        <button
+          className="mt-10 px-8 py-3 bg-orange-500 text-white uppercase text-sm tracking-wide hover:bg-orange-600 transition-all duration-300"
+          onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
+        >
           Узнать больше
         </button>
       </div>
