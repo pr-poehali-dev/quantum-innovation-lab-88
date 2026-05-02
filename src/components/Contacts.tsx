@@ -34,7 +34,7 @@ export default function Contacts() {
           >
             <div className="w-14 h-14 rounded-full overflow-hidden group-hover:scale-110 transition-transform">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/VK_Messenger_logo_%282022%29.svg/240px-VK_Messenger_logo_%282022%29.svg.png"
+                src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/bucket/0670026a-6706-40f7-8c9c-e9d158e8e7c6.png"
                 alt="MAX"
                 className="w-full h-full object-cover"
               />
