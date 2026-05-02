@@ -22,7 +22,7 @@ export default function Hero() {
           <span className="text-orange-500">АКАРА</span>
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Расскажите нам о своём проекте — и мы воплотим его в реальность
+          Автосервис Акара — команда квалифицированных специалистов обеспечит качественный и честный сервис
         </p>
         <button className="mt-10 px-8 py-3 bg-orange-500 text-white uppercase text-sm tracking-wide hover:bg-orange-600 transition-all duration-300">
           Узнать больше
