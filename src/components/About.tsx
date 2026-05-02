@@ -24,8 +24,8 @@ export default function About() {
       {/* Низ-лево: картинка */}
       <div className="border-r border-neutral-300 overflow-hidden">
         <img
-          src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/files/bf5a2a72-dd35-4fb7-9400-9bd0ccbf7062.jpg"
-          alt="Автомобиль на подъёмнике"
+          src="https://cdn.poehali.dev/projects/32c0bf19-ecd5-4fa2-b1c5-caae941c5d3c/bucket/a907fdbe-86cc-4d43-89c0-c6131d4b1245.jpg"
+          alt="Стойка ресепшн автосервиса Акара"
           className="w-full h-full object-cover"
         />
       </div>
