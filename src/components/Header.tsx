@@ -17,6 +17,7 @@ export default function Header({ className }: HeaderProps) {
           <a
             href="#about"
             className="text-white hover:text-orange-400 transition-colors duration-300 uppercase text-sm"
+            onClick={(e) => { e.preventDefault(); document.getElementById("about")?.scrollIntoView({ behavior: "smooth" }); }}
           >
             О нас
           </a>
